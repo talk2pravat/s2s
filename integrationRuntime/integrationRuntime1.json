@@ -9,18 +9,18 @@
 				"numberOfNodes": 1,
 				"maxParallelExecutionsPerNode": 2,
 				"vNetProperties": {
-					"vNetId": "/subscriptions/0a396cb4-0e8c-43fe-86fc-346ce9f7dbb6/resourceGroups/testadfwe/providers/Microsoft.Network/virtualNetworks/VNET01",
+					"vNetId": "/subscriptions/0a396cb4-0e8c-43fe-86fc-346ce9f7dbb6/resourceGroups/prodadfwe/providers/Microsoft.Network/virtualNetworks/VNET01",
 					"subnet": "sub01",
 					"publicIPs": [
-						"/subscriptions/0a396cb4-0e8c-43fe-86fc-346ce9f7dbb6/resourceGroups/testadfwe/providers/Microsoft.Network/publicIPAddresses/testprimarypip01",
-						"/subscriptions/0a396cb4-0e8c-43fe-86fc-346ce9f7dbb6/resourceGroups/testadfwe/providers/Microsoft.Network/publicIPAddresses/testprimarypip02"
+						"/subscriptions/0a396cb4-0e8c-43fe-86fc-346ce9f7dbb6/resourceGroups/prodadfwe/providers/Microsoft.Network/publicIPAddresses/prodprimarypip01",
+						"/subscriptions/0a396cb4-0e8c-43fe-86fc-346ce9f7dbb6/resourceGroups/prodadfwe/providers/Microsoft.Network/publicIPAddresses/prodprimarypip02"
 					]
 				}
 			},
 			"ssisProperties": {
 				"catalogInfo": {
-					"catalogServerEndpoint": "testprimarysql.database.windows.net",
-					"dualStandbyPairName": "testadf",
+					"catalogServerEndpoint": "prodprimarysql.database.windows.net",
+					"dualStandbyPairName": "prodadf",
 					"catalogPricingTier": "S1"
 				},
 				"edition": "Standard",
