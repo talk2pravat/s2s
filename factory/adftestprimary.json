@@ -1,0 +1,9 @@
+{
+	"name": "adftestprimary",
+	"location": "westeurope",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "789514ab-a1d7-4ac3-b74b-e70b951598ec",
+		"tenantId": "b9fec68c-c92d-461e-9a97-3d03a0f18b82"
+	}
+}
